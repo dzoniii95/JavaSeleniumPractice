@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" verbose="0">
+  <test name="/Users/dzoniiisd/QAtive-Course/AutomationPractice(failed)">
+    <classes>
+      <class name="tests.cartTest">
+        <methods>
+          <include name="addAndRemoveFromCart"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.cartTest -->
+      <class name="tests.loginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.loginTest -->
+    </classes>
+  </test> <!-- /Users/dzoniiisd/QAtive-Course/AutomationPractice(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
